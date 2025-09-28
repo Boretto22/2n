@@ -5,7 +5,7 @@ public class House extends Prop {
     private int numRooms;
     private boolean swimmingpool;
 
-    public House(String ID, String adress, String city, String numRooms){
+    public House(String ID, String adress, String city, int numRooms){
         super(ID, adress, city);
 
     }

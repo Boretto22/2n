@@ -8,6 +8,10 @@ public class Prop {
     private float price;
 
     public Prop(String ID, String adress, String city){
+        this.propID = propID;
+        this.adress = adress;
+        this.city = city;
+        this.price = 0.0f;
     }
 
     public String getPropID() {
